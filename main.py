@@ -6,8 +6,7 @@ names = names_string.split(", ")
 #Write your code below this line 👇
 import random
 
-pocet = len(names)
-print(type(pocet))
+pocet = len(names)-1
 
 vyber = random.randint(0, pocet)
 print(names[vyber])
